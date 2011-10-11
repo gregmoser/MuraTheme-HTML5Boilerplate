@@ -5,8 +5,8 @@
 	<script>!window.jQuery && document.write(unescape('%3Cscript src="js/libs/jquery-1.4.4.js"%3E%3C/script%3E'))</script>
   
 	<!-- scripts concatenated and minified via ant build script-->
-	<script src="js/plugins.js"></script>
-	<script src="js/script.js"></script>
+	<script src="#$.siteConfig('themeAssetPath')#/js/plugins.js"></script>
+	<script src="#$.siteConfig('themeAssetPath')#/js/script.js"></script>
 	<!-- end concatenated and minified scripts-->
   
   

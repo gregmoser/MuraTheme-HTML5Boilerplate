@@ -33,7 +33,7 @@
 	<link rel="stylesheet" media="handheld" href="css/handheld.css?v=2">  -->
  
 	<!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
-	<script src="js/libs/modernizr-1.6.min.js"></script>
+	<script src="#$.siteConfig('themeAssetPath')#/js/libs/modernizr-1.6.min.js"></script>
 	
 	<cfset rs=$.getBean('feedManager').getFeeds($.event('siteID'),'Local',true,true) />
 	<cfloop query="rs">
